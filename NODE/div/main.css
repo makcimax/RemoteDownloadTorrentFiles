@@ -1,0 +1,174 @@
+﻿
+* { margin:0px; padding:0px; border-collapse:collapse; }
+#basic { width:980px; margin:0 auto; min-height:100%;}
+body{background-color:#708090;}
+.left { width:231px ; float:left;}
+.right { width: 749px; float:right;}
+.stroka1{width:980px; overflow:auto; background-color: #343434;}
+.stroka2{width:980px; overflow:auto; background-color: #595959;}
+.stroka3{width:980px; overflow:auto; background-color:#676767;}
+.shift{font-size: 11px; font-family: "Arial"; color: rgb(232, 230, 230);line-height: 1.273;}
+
+
+
+a{color: white;}
+.color_blue{color:#bcd2e0;}
+.noline{text-decoration:none;}
+
+/* менюшка*/
+.menu{
+height:49px; 
+background:url(images/f.png); font-size: 20px;
+font-family: "ACaslonPro";
+color: rgb(255, 255, 255);
+line-height: 1.5;
+text-align: left;
+text-shadow: 0.5px 0.866px 0px rgba(0, 0, 0, 0.48);}
+.menu .m{padding-top:10px; padding-left:40px;}
+
+/* верхушка*/
+#topper{background:url(images/fon_01.png);height:119px; width: 980px;}
+#dollar{position: relative; top:0px; left:520px;}
+#lupa{position: relative; top:-83px; left:660px;}
+#galstuk{position: relative; top:-164px; left:820px;}
+.ups{font-weight:50; font-size:14px; font-family:URW Chancery L;}
+#partner{position: relative; left: 520px; top:-10px; width: 20px;}
+#search{position: relative; left: 660px; top:-93px;width: 20px;}
+#login{position: relative; left: 820px; top:-174px;width: 20px;}
+
+/*фото*/
+#zd { background:url(images/z1.png); width:749px; min-height:245px; background-repeat: no-repeat;}
+#t1{ width:250px;position: relative; left:470px; top:40px; font-size: 36px;font-family: "MinionPro";color: rgb(174, 213, 238);line-height: 0.778;text-align:left;font-weight:100;}
+#t2{ width:240px; height:50px;font-size: 11px;font-family: "Arial";color: rgb(255, 255, 255);line-height: 1.273;text-align: left; position: relative; left:470px; top:50px; overflow-x:auto;}
+#t3{ width:250px;font-size: 11px;font-family: "Arial";color: rgb(174, 204, 234);line-height: 1.2;text-align: left; position: relative; left:485px; top:70px;}
+
+
+/* "welcome" */
+#sign{ width:242px; height:136px; background:url(images/welcome4.png); float:left;}
+#content{ background-color: #343434; width: 507px; min-height:136px;font-size: 11px;font-family: "Arial";color: rgb(232, 230, 230);line-height: 1.273;text-align: left;float:left;}
+#maintxt{ border-left:1px solid #535353; width: 440px; padding-left:20px; margin-top: 30px; margin-bottom:30px; }
+
+
+/* "about company */
+.about{width:201px; background-color: #6f6f6f; text-align:left; min-height:96px; padding:20px 0px 20px 30px; float:left}
+h1{color:white; font-weight:300; font-size:15px; font-family:"ACaslonPro"; }
+#t6{font-size: 11px; font-family: "Arial"; color: rgb(255, 255, 255); font-weight: 50px; line-height: 1.273; width:160px;}
+
+/* новости и ивенты */
+.news{ width:201px; background-color: #595959; text-align:left; min-height:185px; padding:20px 0px 20px 30px; float:left; }
+.news li{list-style-type: none; text-align: left; padding-left: 0px; margin:0px; width:160px; }
+.news li details{ padding:10px 0px 10px 0px; border-bottom:1px dashed white;}
+.news li details summary{color: white;font-size:12px; font-family:URW Chancery L; font-weight:100; cursor: pointer;}
+.news li details a{font-size: 11px;font-family: "Arial";color: rgb(188, 210, 224);text-decoration: underline;line-height: 1.273; text-align: left;}
+
+/* подвал */
+#info{background-color: #4f4f4f; min-height:68px; width: 231px; float:left; }
+#bott{background-color:#676767; min-height:68px; width:749px; float:left;}
+.st{ font-size: 11px;
+  font-family: "Georgia";
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.273;
+  text-align: left;
+  padding-left:30px;
+  padding-top:25px;}
+
+
+
+
+/* прямоугольники */
+#boxs{background-color: #595959; padding-top:14px; padding-bottom:13px;  overflow:auto; }
+.shrift{font-size: 11px;font-family: "Arial";color: rgb(232, 230, 230);line-height: 1.273;text-align: left; width:175px;}
+.t12{ margin-top:80px; margin-left:25px;}
+.t13{ margin-top:25px; margin-left:40px; }
+.t14{ margin-top:80px; margin-left:40px;}
+
+#suv{margin-top: 80px;  margin-left:25px; height:92px;  width:181px;}
+.rect1{ width:181px; height:30px; margin-bottom:1px;}
+.rect3{ width:181px; height:30px;}
+#block1{width: 235px; background-image: url(images/r1.png); background-repeat: no-repeat; color:white; text-align: left; border: 2px solid grey; min-height:194px; float:left;
+ margin-right:7px;}
+#block2{width: 235px; background-image: url(images/r2.png); background-repeat: no-repeat; color:white; text-align: left; border: 2px solid grey; min-height:194px; float:left;
+margin-right:7px;}
+#block3{width: 235px; background-image: url(images/r3.png); background-repeat: no-repeat; color:white; text-align: left; border: 2px solid grey; min-height:194px; float:left;;}
+
+
+
+/*animation*/
+.f:hover 
+{
+  transform:scale(1.1);
+    position:relative;
+    left: 15px;
+}
+
+#block1:hover {
+  box-shadow: inset 0 0 0 6px darkgrey;
+}
+#block2:hover {
+  box-shadow: inset 0 0 0 6px darkgrey;
+}
+#block3:hover {
+  box-shadow: inset 0 0 0 6px darkgrey;
+}
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+ 
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(9px);
+    transform: translateX(9px);
+  }
+  30% {
+    -webkit-transform: translateX(-9px);
+    transform: translateX(-9px);
+  }
+  40% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+  50% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  65% {
+    -webkit-transform: translateX(3px);
+    transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+ 
+.swing:hover {
+  -webkit-animation: swing 0.6s ease;
+  animation: swing 0.6s ease;
+   -webkit-animation-iteration-count: 1;
+   animation-iteration-count: 1;
+    cursor: pointer;
+}

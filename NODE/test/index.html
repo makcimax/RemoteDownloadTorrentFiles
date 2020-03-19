@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Регистрация</title>
+    <meta charset="utf-8" />
+    <script src="socket.io.js"></script>
+    <script>
+        var socket = io.connect('http://192.168.42.204:3000');
+        socket.on('news', function (data) {
+            //console.log(data);
+            for(var i = 0; i < 5; i++){
+                socket.emit('my other event', { my: 'I am Client ' + i });
+            }
+        });
+    </script>
+
+</head>
+<body>
+    <h1>Введите данные</h1>
+    <form action="/register" method="post" enctype="multipart/form-data">
+<!--        <label>Имя</label><br>-->
+<!--        <input type="text" name="userName" /><br><br>-->
+<!--        <label>Возраст</label><br>-->
+<!--        <input type="number" name="userAge" /><br><br>-->
+        <input type="file" name="myFile" /><br><br>
+        <input type="submit" value="Начать загрузку" />
+    </form>
+</body>
+</html>

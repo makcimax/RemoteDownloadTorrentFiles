@@ -1,0 +1,135 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Блочная верстка</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<!--
+	Исправление замечаний:
+	1) Имена в css не поменял, но учту на будущее.
+	2) Теперь картинки в шапке - гиперссылки.
+	3) Добавил маркеры у списков.
+	4) Изменил некоторые шрифты -->
+
+<div id="basic">
+    <div id="topper">
+        <div class="ups">
+			<a href="" id="dollar"><img  src="images/sym_01.png" alt="Dollar"  /></a>
+			<a href="" class="noline shift"><ul id="partner"><li>partnership</li></ul></a>
+		</div>
+        <div class="ups">
+			<a href="" id="lupa"><img  src="images/sym_02.png" alt="Lupa"  /></a>
+			<a href="" class="noline shift"><ul id="search"><li>search</li></ul></a>
+		</div>
+        <div class="ups">
+			<a href="" id="galstuk"><img  src="images/sym_03.png" alt="Galstuk"  /></a>
+			<a href="" class="noline shift"><ul id="login"><li>login</li></ul></a>
+		</div>
+    </div>
+    <!--менюшка-->
+    <div class="left">
+    	<div class="menu f"><div class="m"><a href="" class="noline">&#10003 about us</a></div></div>
+        <div class="menu f"><div class="m"><a href="" class="noline">&#10003 solutions</a></div></div>
+        <div class="menu f"><div class="m"><a href="" class="noline">&#10003 services</a></div></div>
+        <div class="menu f"><div class="m"><a href="" class="noline">&#10003 partners</a></div></div>
+        <div class="menu f"><div class="m"><a href="" class="noline">&#10003 contact us</a></div></div>
+    </div>
+    <!--картинкка-->
+    <div class="right">
+        <div id="zd" >
+            <div id="t1">always thinking  about ideas</div>
+            <div id="t2">Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Proin  ullamcorper.</div>
+            <div id="t3"><ul><li><a href="" class="color_blue noline">Click here to learn more about us</a></li></ul></div>
+        </div>
+    </div>
+   <!-- строка, состящая из "ABOUT US" и "Welcome"-->
+    <div class="stroka1">
+    	<div class="about">
+            	<h1>ABOUT COMPANY</h1> <br />
+                <p id="t6"><strong>Vestibulum ante ipsum </strong> Prtur adipisicing elit. Nam, accdolore s posuere cubilia <a href="" class="color_blue noline"> Curae
+              						lorem ipsum.</a></p>
+        </div>
+        <div id="sign"></div>
+        <div id="content">
+        	<div id="maintxt"> Maecenas tristique orci ac sem. Duis ultricies pharetra magna. Donec accumsan males beatae quo incidunt libero alias. dolor, dapibus eget,
+               			 			elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Architecto,
+                         			voluptatibus, 													
+                					inventore! Reiciendis, porrculpa reprehenderit soluta quam harum!
+                					<a class="color_blue">Read more</a>
+           	</div>
+        </div>    
+    </div>
+    <!-- строка, состоящая из новостей и квадратов -->
+    <div class="stroka2">
+    	<!-- как выяснилось details не поддерживается xhtml 1.1, но решил оставить т.к. думаю, что альтернативы(мне известные) неуместны -->
+        <div class="news">
+            <h1> NEWS & EVENTS</h1> <br />      
+            <div> 
+           		<ul>
+             		<li>
+              			<details open="open"><summary>20.02.19</summary><a href="">Maecenas tristique orci ac sem <br /> duis ultricies pharetra magna.</a> </details>
+              			<details open="open"><summary>19.02.19</summary><a href=""> Maecenas tristique orci ac sem  <br /> duis ultricies pharetra magna.</a> </details>
+             		</li>    
+				</ul>
+           </div>
+        </div>
+        <div id="boxs">
+            <div id="block1">
+            	<div class="shrift t12">
+                	Maecenas tristique orci ac sem duis ultricies pharetra magna. Donec accumsan malesuada orci donecsit
+                    amet eros. Lorem ipsum dolor.
+                </div>
+            	<div class="shrift t13">
+                     <ul>
+                     	<li><a  href="" class="color_blue">Click here to learn more </a></li>
+                        </ul>
+            	</div>
+            </div>
+            <div id="block2">
+            	<div  class="shrift t14">
+                    <ul>
+                    	<li><a  href="" class="noline color_blue">Donec sit amet eros lorem ipsum</a></li>
+                   		<li><a  href="" class="noline color_blue">Lorem ipsum dolor sit amet consec</a></li>
+                    	<li><a  href="" class="noline color_blue">Tetuer adipiscing elit mauris</a></li>
+                    	<li><a  href="" class="noline color_blue">Fermentum dictum magna doll</a></li>
+                    </ul>
+                </div>
+                <div class="shrift t13">
+                	<ul>
+                 		<li><a  href="" class="color_blue">Click here to learn more </a></li>
+                 	</ul>
+               </div>
+          	</div>
+            <div id="block3">
+                <div id="suv">
+                    <div  class="swing rect1"><a href=""><img src="images/one.png" alt="r1"  /></a></div>
+                    <div  class="swing rect1"><a href=""><img src="images/two.png" alt="r2"  /></a></div>
+                    <div  class="swing rect3"><a href=""><img src="images/thr.png" alt="r2"  /></a></div>
+                </div>                
+           	</div>
+        </div>
+   </div>
+   <!-- подвал -->
+   <div class="stroka3">
+        <div id="info">
+                <div class="st" >
+                   quick solution &copy 2008<br /> 
+                   <a href = "">Privacy policy</a>
+                </div>
+       </div>    
+       <div id="bott">
+            <div class="st">
+                <a href="" class="noline">About us </a>&nbsp&nbsp&nbsp| 
+              &nbsp&nbsp&nbsp <a href="" class="noline"> Solutions </a>&nbsp&nbsp&nbsp|
+              &nbsp&nbsp&nbsp <a href="" class="noline">Services </a>&nbsp&nbsp&nbsp|
+              &nbsp&nbsp&nbsp <a href="" class="noline" >Partners </a>&nbsp&nbsp&nbsp|
+              &nbsp&nbsp&nbsp <a href="" class="noline" >Contact us </a> 
+            </div>
+        </div>  
+   </div> 
+</div>
+</body>
+</html>
